@@ -1,0 +1,16 @@
+{
+  "name": "healthfin-solutions",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "HealthFin Solutions Website with Oracle Database Integration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "oracledb": "^6.8.0",
+    "path": "^0.12.7"
+  }
+}
