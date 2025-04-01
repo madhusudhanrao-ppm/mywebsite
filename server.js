@@ -16,7 +16,7 @@ app.post("/api/register", async (req, res) => {
       user: "<DB-UserName>",
       password: "<DB-Password>",
       connectString:
-        "(description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.us-phoenix-1.oraclecloud.com))(connect_data=(service_name=doesitmmater_dbname_medium.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))",
+        "(description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.us-phoenix-1.oraclecloud.com))(connect_data=(service_name=doesitmater?_dbname_medium.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))",
       walletLocation: "/myfolderpath/mywebsite/wallet",
       walletPassword: "welcome1",
     });
